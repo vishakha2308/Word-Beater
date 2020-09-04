@@ -1,0 +1,65 @@
+body{
+  text-align: center;
+  margin:0 2rem 0;
+  background-color: #000;
+
+}
+.card{
+  height:350px;
+  width:350px;
+  margin-top: 6rem;
+  padding:1.5rem;
+  margin:3rem 2rem 0;
+  font-size: 1.5rem;
+  font-weight:500;
+  background-color: #000;
+
+
+}
+
+#current-word{
+  height: 100%;
+  font-size: 3rem;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom:2rem;
+
+}
+footer{
+  background-color: #000;
+  color:#fff;
+  font-size:1rem;
+  width:100%;
+  margin-top: 6.3rem;
+  padding:5px 0;
+
+}
+#message{
+  font-size:1.2rem;
+  margin:auto;
+
+}
+#high-score,#message,#message-display,#high-scoreDisplay{
+  color: #979797;
+  opacity: 0.5;
+
+}
+#word-input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#high:hover #high-scoreDisplay {
+    color: rgba(255, 255, 255, 1);
+}
+
+#high:hover #high-score {
+    color: rgba(255, 255, 255, 1);
+}
+#message-head:hover #message-display{
+      color: rgba(255, 255, 255, 1);
+}
+#message-head:hover #message{
+  color: rgba(255, 255, 255, 1);
+
+}

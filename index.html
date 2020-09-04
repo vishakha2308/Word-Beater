@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Word-Beater</title>
+</head>
+
+<body class="text-white ">
+  <header class="text-white mt-3">
+    <h3>Word-Beater</h3>
+  </header>
+
+  <div class ="row">
+    <div class = "col-md-4">
+      <div class ="card text-white ">
+        <p id="countdown">Countdown</p>
+        <p id ="time">0</p>
+        <div id ="message-head">
+          <p class ="mt-5" id ="message-display">Message</p>
+          <p id ="message"></p>
+        </div>
+      </div>
+    </div>
+    <div class ="col-md-4">
+      <div class ="card  text-white">
+        <p class ="card-text d-flex" id ="current-word">
+          hello
+        </p>
+
+          <input type= "text" id="word-input" class ="form-control"
+          placeholder="start typing..." autofocus/>
+          </div>
+      </div>
+      <div class ="col-md-4">
+        <div class ="card  text-white">
+         <p>Score</p>
+         <p id ="score">0</p>
+         <div id= "high">
+           <p class ="mt-5" id="high-scoreDisplay">High Score</p>
+           <p id= "high-score">0</p>
+         </div>
+       </div>
+    </div>
+</div>
+
+
+  <footer>
+    <marquee>
+      Instructions : Type each word in the given amount of seconds to score.
+      To play again, just type the current word.
+      Your score will Reset.
+    </marquee>
+  </footer>
+
+
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
